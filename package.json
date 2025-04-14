@@ -1,0 +1,39 @@
+{
+    "name": "create-farcaster-app",
+    "version": "0.0.1",
+    "description": "a CLI tool to scaffold new Farcaster apps",
+    "bin": "dist/cli.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "start": "node dist/cli.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "farcaster",
+        "starter"
+    ],
+    "author": "Dylan Steck <dylancsteck@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dylsteck/create-farcaster-app"
+    },
+    "bugs": {
+        "url": "https://github.com/dylsteck/create-farcaster-app/issues"
+    },
+    "homepage": "https://github.com/dylsteck/create-farcaster-app#readme",
+    "dependencies": {
+        "@types/readline-sync": "^1.4.6",
+        "child_process": "^1.0.2",
+        "inquirer": "^9.2.12",
+        "readline-sync": "^1.4.10",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "@types/node": "^20.8.0"
+    }
+}
