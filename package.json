@@ -1,6 +1,6 @@
 {
     "name": "create-farcaster-app",
-    "version": "0.0.1",
+    "version": "1.0.2",
     "description": "a CLI tool to scaffold new Farcaster apps",
     "bin": "dist/cli.js",
     "type": "module",
